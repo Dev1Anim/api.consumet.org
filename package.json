@@ -3,9 +3,9 @@
     "version": "1.0.0",
     "main": "src/main.ts",
     "scripts": {
-        "start": "ts-node src/main.ts", // Directly runs the project with ts-node
-        "dev": "nodemon --exec ts-node src/main.ts", // Uses nodemon with ts-node for development
-        "build": "tsc", // Compiles TypeScript files to check for type errors
+        "start": "ts-node src/main.ts",
+        "dev": "nodemon --exec ts-node src/main.ts", 
+        "build": "tsc",
         "lint": "prettier --write \"src/**/*.ts\""
     },
     "engines": {
